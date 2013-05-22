@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="single_button">
+    <item name="android:width">50sp</item>
+    <item name="android:height">50sp</item>
+  </style>
+  <style name="vertical_double_button" parent="single_button">
+    <item name="android:layout_rowSpan">2</item>
+    <item name="android:height">100sp</item>
+  </style>
+
+  <style name="horizontal_double_button" parent="single_button">
+    <item name="android:layout_columnSpan">2</item>
+    <item name="android:width">100sp</item>
+    <!--<item name="android:layout_weight">@android:;</item>-->
+    <!--<item name="android:layout_height">25%</item>-->
+  </style>
+</resources>
