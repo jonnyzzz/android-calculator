@@ -11,7 +11,7 @@
                 android:background="#fff"
                 android:padding="20dp"
           >
-    <TextView android:id="@+id/calculator_values"
+    <TextView android:id="@+id/calculator_value"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
               android:text="123"
@@ -30,60 +30,78 @@
               android:padding="20sp"
               >
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_ac"
+            style="@style/single_button"
             android:text="AC"/>
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_percent"
+            style="@style/single_button"
             android:text="%"/>
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_div"
+            style="@style/single_button"
             android:text="/"/>
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_mul"
+            style="@style/single_button"
             android:text="*"/>
 
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_7"
+            style="@style/single_button"
             android:text="7"/>
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_8"
+            style="@style/single_button"
             android:text="8"/>
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_9"
+            style="@style/single_button"
             android:text="9"/>
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_minus"
+            style="@style/single_button"
             android:text="-"/>
 
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_4"
+            style="@style/single_button"
             android:text="4"/>
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_5"
+            style="@style/single_button"
             android:text="5"/>
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_6"
+            style="@style/single_button"
             android:text="6"/>
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_plus"
+            style="@style/single_button"
             android:text="+"/>
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_1"
+            style="@style/single_button"
             android:text="1"/>
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_2"
+            style="@style/single_button"
             android:text="2"/>
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_3"
+            style="@style/single_button"
             android:text="3"/>
 
-    <Button style="@style/vertical_double_button"
+    <Button android:id="@+id/calculator_button_equal"
+            style="@style/vertical_double_button"
             android:text="="/>
 
-    <Button style="@style/horizontal_double_button"
+    <Button android:id="@+id/calculator_button_0"
+            style="@style/horizontal_double_button"
             android:text="0"/>
 
-    <Button style="@style/single_button"
+    <Button android:id="@+id/calculator_button_comma"
+            style="@style/single_button"
             android:text=","/>
   </GridLayout>
 
